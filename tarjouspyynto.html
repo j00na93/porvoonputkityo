@@ -13,6 +13,82 @@
 
     <main>
 Tänne tulee tarjouspyynto-lomakkeen sisältö.
+          <!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porvoon Putkityö – Etusivu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+Tänne tulee tarjouspyynto-lomakkeen sisältö.
+     <!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porvoon Putkityö – Etusivu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <header></header>
+
+    <main>
+Tänne tulee tarjouspyynto-lomakkeen sisältö.
+          <section class="hero small-hero">
+        <div class="hero-content">
+            <h2>Jätä tarjouspyyntö</h2>
+            <p>Vastaamme teille mahdollisimman pian</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Tarjouspyyntölomake</h2>
+        <p>Täytttäkää alle oleva lomake, olemme teihin yhteydessä mahdollisimman pian</p>
+
+        <form action="laheta.php" method="POST" class="tarjous-form">
+
+            <label for="nimi">Nimi *</label>
+            <input type="text" id="nimi" name="nimi" required>
+
+            <label for="email">Sähköposti *</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="puhelinnumuero">Puhelinnumero</label>
+            <input type="text" id="Puhelinnumero" name="puhelinnumero">
+
+            <label for="palvelu">Palvelun tyyppi</label>
+            <select id="palvelu" name="projekti">
+                <option value="Vesijohtotyöt">Vesijohtotyöt</option>
+                <option value="Viemäröinti">Viemäröinti</option>
+                <option value="Ilmanvaihto">Ilmanvaihto</option>
+                <option value="Muu">Muu (kuvaile alla)</option>
+            </select>
+
+            <label for="kuvaus">Kuvaus *</label>
+            <textarea id="kuvaus" name="kuvaus" rows="5" required placeholder="Kuvailkaa millaista työtä tarvisisitte"></textarea>
+
+            <button type="submit" class="btn">Lähetä tarjouspyyntösi</button>
+        </form>
+    </section>
+    </main>
+    <footer></footer>
+</body>
+</html>
+
+    </main>
+    <footer></footer>
+</body>
+</html>
+
     </main>
     <footer></footer>
 </body>
